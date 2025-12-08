@@ -1,0 +1,21 @@
+:root {
+  --font-primary: "Staatliches", sans-serif;
+  --font-secondary: "Geist", sans-serif;
+  --font-accent: "Jaro", sans-serif;
+
+  --color-primary: #0f0f0f;
+  --color-secondary: #fff;
+  --color-accent: #613b0f;
+  --color-accent-secondary: #cd9d65;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.container {
+  max-width: 1310px; /* 1280px + 30px paddings */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

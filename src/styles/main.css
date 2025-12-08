@@ -1,0 +1,15 @@
+/* Fonts */
+
+@import "../fonts/Staatliches/Staatliches.css";
+@import "../fonts/Geist/Geist.css";
+@import "../fonts/Jaro/Jaro.css";
+
+/* Main */
+
+@import "../styles/base/reset.css";
+@import "../styles/base/base.css";
+
+/* Elements */
+
+/* Sections */
+@import "./sections/header.css";
