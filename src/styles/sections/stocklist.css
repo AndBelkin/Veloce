@@ -1,0 +1,29 @@
+.section-stocklist-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-stocklist-grid p {
+  padding: 24px;
+  font-size: clamp(32px, 28.67px + 1.04vw, 42px);
+}
+
+/* Adaptive */
+
+@media (max-width: 768px) {
+  .section-stocklist {
+    background-image: linear-gradient(rgba(62, 61, 61, 0.7), rgba(0, 0, 0, 0.8)), url("./../../images/stocklist.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-stocklist-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-stocklist-grid p {
+    color: var(--color-secondary);
+  }
+  .section-stocklist-grid img {
+    display: none;
+  }
+}
