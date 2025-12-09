@@ -10,6 +10,8 @@
 @import "../styles/base/base.css";
 
 /* Elements */
+@import "./elements/button.css";
 
 /* Sections */
 @import "./sections/header.css";
+@import "./sections/intro.css";

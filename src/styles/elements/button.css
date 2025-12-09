@@ -1,0 +1,25 @@
+.button {
+  padding: 7.8px 26px;
+  font-size: 26px;
+  line-height: 139%;
+  letter-spacing: -2%;
+  font-family: var(--font-accent);
+  border-radius: 50%;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.button.accent {
+  color: var(--color-accent-secondary);
+  background-color: var(--color-primary);
+}
+
+.button.accent:hover,
+.button.accent:focus {
+  background-color: var(--color-accent);
+}
+
+.button.accent:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 8px;
+}
