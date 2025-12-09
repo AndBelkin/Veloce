@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   padding: 7.8px 26px;
   font-size: 26px;
   line-height: 139%;
@@ -14,12 +15,24 @@
   background-color: var(--color-primary);
 }
 
+.button.primary {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+/* Pseudo-classes and pseudo-elements */
+
+.button:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 8px;
+}
+
 .button.accent:hover,
 .button.accent:focus {
   background-color: var(--color-accent);
 }
 
-.button.accent:focus {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 8px;
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--color-accent-secondary);
 }
