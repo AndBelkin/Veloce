@@ -1,0 +1,33 @@
+.section-products {
+  padding: 60px;
+}
+
+.section-products-title {
+  font-size: clamp(32px, 9.33px + 7.08vw, 100px);
+  margin-bottom: 1rem;
+}
+
+.section-products-grid {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: clamp(16px, 1.33px + 4.58vw, 60px);
+  justify-content: space-between;
+}
+
+/* Adaptive */
+
+@media (max-width: 1180px) {
+  .section-products {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .section-products-title {
+    text-align: center;
+  }
+  .section-products-grid {
+    justify-content: center;
+  }
+}

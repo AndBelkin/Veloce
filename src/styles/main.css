@@ -11,9 +11,11 @@
 
 /* Elements */
 @import "./elements/button.css";
+@import "./elements/product-card.css";
 
 /* Sections */
 @import "./sections/header.css";
 @import "./sections/intro.css";
 @import "./sections/about.css";
 @import "./sections/featured.css";
+@import "./sections/product.css";
