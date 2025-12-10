@@ -13,7 +13,7 @@
 @import "./elements/button.css";
 @import "./elements/product-card.css";
 
-/* Sections */
+/* Sections Index*/
 @import "./sections/header.css";
 @import "./sections/intro.css";
 @import "./sections/about.css";
@@ -22,3 +22,7 @@
 @import "./sections/flavors.css";
 @import "./sections/stocklist.css";
 @import "./sections/footer.css";
+
+/* Sections About */
+
+@import "./sections/hero.css";

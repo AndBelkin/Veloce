@@ -48,7 +48,7 @@
   width: 100%;
 }
 
-.header-nav-item .active {
+.header-nav-item.active {
   color: var(--color-accent);
 }
 

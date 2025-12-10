@@ -1,0 +1,33 @@
+.section-hero {
+  padding: 50px 30px 100px;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+.section-hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section-hero h6 {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 110%;
+}
+
+.section-hero p {
+  font-size: clamp(16px, 1.33px + 4.58vw, 60px);
+  line-height: 110%;
+  text-align: justify;
+}
+
+/* Adaptive */
+
+@media (max-width: 426px) {
+  .section-hero {
+    padding: 25px 15px 50px;
+  }
+}
